@@ -42,10 +42,10 @@ PYLON_ARCH=""
 PYLON=""
 
 case $ABI_TAG in
-    cp27m) BASE_IMAGE="python:2.7.16-jessie" ;;
-    cp34m) BASE_IMAGE="python:3.4.8-jessie" ;;
-    cp35m) BASE_IMAGE="python:3.5.6-jessie" ;;
-    cp36m) BASE_IMAGE="python:3.6.4-jessie" ;;
+    cp27m) BASE_IMAGE="python:2.7.16-stretch" ;;
+    cp34m) BASE_IMAGE="python:3.4.10-stretch" ;;
+    cp35m) BASE_IMAGE="python:3.5.7-stretch" ;;
+    cp36m) BASE_IMAGE="python:3.6.9-stretch" ;;
     cp37m) BASE_IMAGE="python:3.7.2-stretch" ;;
     *)
     echo "Unsupported abi '$ABI_TAG'. Supported tags: cp27m,cp34m,cp35m,cp36m,cp37m"
